@@ -6,8 +6,8 @@ import matplotlib as plt
 import time
 
 # authenticate and connect to the API
-client_id = '98b812809bc24988b825357a3c4b05a1'
-client_secret = 'ae852286b5554e4381bb997988cfe8b0'
+client_id = 'xxx'
+client_secret = 'xxx'
 client_credentials_manager = SpotifyClientCredentials(
     client_id=client_id, client_secret=client_secret)  # spotify object to access API
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
